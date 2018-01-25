@@ -1,4 +1,4 @@
-React AB testing: 'react-ab' module
+# react-ab package
 A simple npm package to AB test components in React and record the results in a mongo database via express!
 
 On the frontend, possible components are passed in as props to the ABTest component. Each variant has a 50% probability of appearing. In the example below, there is a 50% chance of id=“caps” button or id=“lowercase” button being rendered.
