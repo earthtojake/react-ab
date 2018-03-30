@@ -1,0 +1,15 @@
+{
+  "builders": {
+    "server": {
+      "stack": "webpack:es6:react:server",
+      "buildDir": "build/server"
+    },
+    "client": {
+      "stack": "webpack:es6:react:web",
+      "buildDir": "build/client"
+    }
+  },
+  "options": {
+    "ssr": true
+  }
+}

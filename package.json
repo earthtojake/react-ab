@@ -1,0 +1,40 @@
+{
+  "name": "react-ab",
+  "version": "1.0.0",
+  "description": "A simple package to AB test React components and save experiment results to mongodb on an express app",
+  "main": "react-ab.js",
+  "scripts": {
+    "start": "cd example/dist && node server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/earthtojake/react-ab.git"
+  },
+  "keywords": [
+    "AB",
+    "test",
+    "experiment",
+    "probability",
+    "React",
+    "mongo",
+    "mongodb",
+    "ab",
+    "ab",
+    "testing",
+    "express"
+  ],
+  "author": "earthtojake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/earthtojake/react-ab/issues"
+  },
+  "homepage": "https://github.com/earthtojake/react-ab#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
